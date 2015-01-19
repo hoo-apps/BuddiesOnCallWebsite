@@ -1,0 +1,17 @@
+{
+  "buddies": [
+    {
+      "birthday": null, 
+      "email": "another@gmail.com", 
+      "id": 1, 
+      "lastlogin": null, 
+      "lastlogout": null, 
+      "lastupdate": null, 
+      "name": "Jane Doe", 
+      "oncall": true, 
+      "phone": "", 
+      "userid": 4, 
+      "useruri": "/users/4"
+    }
+  ]
+}

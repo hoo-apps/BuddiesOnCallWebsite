@@ -1,0 +1,330 @@
+/* GENERAL CSS */
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato';
+	box-sizing: border-box;
+}
+
+*, *:after {
+	box-sizing: inherit;
+}
+
+.center-v {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.circle {
+	border-radius: 50%;	
+}
+
+.wrapper {
+	width: 100%;
+	height: 100%;
+}
+
+.full-width {
+	width: 100%;
+	display: block;
+}
+
+.full-grid-width {
+	width: 960px;
+}
+
+.center-h {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*
+.ng-invalid.ng-dirty {
+	border-color: #F44336;
+}
+
+.ng-valid.ng-dirty {
+	border-color: #4CAF50;
+}
+*/
+
+/* Based on the 960 grid system */
+#grid-container {
+	width: 960px;
+	height: 100%;
+	margin: 0px auto;
+}
+
+#form-wrapper {
+	width: 100%;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+#list-wrapper {
+	width: 100%;
+	display: inline-block;
+}
+
+.img-container {
+	background: #EEEEEE;
+	display: inline-block;
+	height: 92px;
+}
+
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8 {
+	display: inline;
+	float: left;
+	margin: 10px;
+	min-height: 1px;
+}
+
+.grid_1 {
+	width: 40px;
+}
+
+.grid_2 {
+	width: 100px;
+}
+
+.grid_3 {
+	width: 160px;
+}
+
+.grid_4 {
+	width: 220px;
+}
+
+.grid_5 {
+	width: 280px;
+}
+.grid_6 {
+	width: 340px;
+}
+
+.grid_7 {
+	width: 400px;
+}
+
+.grid_8 {
+	width: 460px;
+}
+
+/* INPUT BOXES AND BUTTONS */
+
+input[type=text],
+input[type=password],
+select,
+button {
+	height: 36px;
+	line-height: 24px;
+	font-size: 16px;
+	padding: 0px 10px;
+	outline: none;
+	border-radius: 4px;
+	border: 1px solid #CCCCCC;
+}
+
+input[type=text]:focus,
+input[type=password]:focus,
+select:focus {
+	border-color: #2196F3;
+}
+
+button {
+	text-align: center;
+	display: block;
+	border: none;
+	outline: none;
+}
+
+.blue-button {
+	background-color: #2196F3;
+	color: #FFFFFF;
+	box-shadow: 0 4px #1976D2;
+}
+
+.blue-button:hover {
+	background-color: #3CA9FF;
+}
+
+.blue-button:active {
+	box-shadow: 0 2px #1976D2;
+	background-color: #1E88E5;
+	transform: translateY(2px);
+}
+
+.center-v.blue-button:active {
+	box-shadow: 0 2px #1976D2;
+	background-color: #1E88E5;
+	transform: translateY(-50%) translateY(2px);
+}
+
+.red-button {
+	background-color: #F44336;
+	color: #FFFFFF;
+	box-shadow: 0 4px #D32F2F;
+}
+
+.red-button:hover {
+	background-color: #FF5E52;
+}
+
+.red-button:active {
+	box-shadow: 0 2px #D32F2F;
+	background-color: #E53935;
+	transform: translateY(2px);
+}
+
+.center-v.red-button:active {
+	box-shadow: 0 2px #D32F2F;
+	background-color: #E53935;
+	transform: translateY(-50%) translateY(2px);
+}
+
+/* NAV LIST */
+nav {
+	width: 100%;
+	height: 56px;
+	padding: 0px;
+	margin: 0px 0px 4px 0px;
+	position: relative;
+	background: #333333;
+	box-shadow: 0 4px #222222;
+	z-index: 1000;
+}
+
+nav ul {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	list-style-type: none;
+	float: right;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 60px;
+}
+
+nav ul li {
+	min-width: 72px;
+	height: 100%;
+	float: left;
+}
+
+nav a {
+	display: block;
+	height: 60px;
+	padding: 0px 16px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+nav a:hover {
+	background: #424242;
+}
+
+.list-active {
+	background: #424242;
+}
+
+nav img {
+	padding: 0px 16px;
+}
+
+.logo-full {
+  font-family: 'Pacifico', Helvetica, sans-serif;
+  font-size: 24px;
+  color: #FFFFFF;
+  text-shadow: 2px 2px 0px rgba(255, 255, 255,0.25);
+  display: inline-block;
+  margin-left: 16px;
+}
+
+/* NG-VIEW DIVS */
+
+#view-container {
+	width: 100%;
+	height: calc(100% - 60px);
+	z-index: -1000;
+}
+
+#view-frame {
+	width: 100%;
+	height: 100%;
+}
+
+#map-canvas {
+	width: calc(100% - 250px);
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+
+/* BUDDY MANAGER */
+#buddy-manager li * {
+	margin: 0px 10px;
+}
+
+#buddy-manager ul {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	list-style-type: none;
+}
+
+#buddy-manager .even {
+	background-color: #eee;
+}
+
+#user-email-list li {
+	height: 48px;
+	line-height: 48px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 0px 10px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#user-email-list li:hover {
+	background-color: #eee;
+}
+
+#buddy-manager-list li {
+	width: 100%;
+	height: 72px;
+	line-height: 24px;
+}
+
+#buddy-manager-list li .profile-img-container {
+	height: 100%;
+	vertical-align: middle;
+}
+
+
+.tab-wrapper {
+	display: inline-block;
+	float: left;
+}
+
+.tab-active {
+	background-color: #2196F3;
+	color: #fff;
+}
+
+.tab-inactive {
+	background-color: #eee;
+	color: inherit;
+}

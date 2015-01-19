@@ -1,0 +1,199 @@
+{
+  "items": [
+    {
+      "birthday": "Sun, 30 Apr 1995 00:00:00 GMT", 
+      "email": "laxextreme@gmail.com", 
+      "gender": "1", 
+      "id": 1, 
+      "name": "Jonathan Holland",
+      "location": {
+        "lat": 38.0373092,
+        "lng": -78.5048227
+      },
+      "oncall": "waiting",
+      "profileImg": "blank-profile.png"
+    }, 
+    {
+      "birthday": "Mon, 01 May 1995 00:00:00 GMT", 
+      "email": "maxallen@gmail.com", 
+      "gender": "1", 
+      "id": 2, 
+      "name": "Max Allen",
+      "location": {
+        "lat": 38.0408002,
+        "lng": -78.5010606
+      },
+      "oncall": "waiting",
+      "profileImg": "blank-profile.png"
+    }, 
+    {
+      "birthday": "Tue, 02 May 1995 00:00:00 GMT", 
+      "email": "timrupt@gmail.com", 
+      "gender": "1", 
+      "id": 3, 
+      "name": "Timmothy Rupt",
+      "location": {
+        "lat": 38.0405075,
+        "lng": -78.4972306
+      },
+      "oncall": "waiting",
+      "profileImg": "blank-profile.png"
+    }, 
+    {
+      "birthday": "Wed, 03 May 1995 00:00:00 GMT", 
+      "email": "jess123@gmail.com", 
+      "gender": "0", 
+      "id": 4, 
+      "name": "Jessie Smith",
+      "location": {
+        "lat": 38.0344065,
+        "lng": -78.4979494
+      },
+      "oncall": "waiting",
+      "profileImg": "blank-profile.png"
+    }, 
+    {
+      "birthday": "Thu, 04 May 1995 00:00:00 GMT", 
+      "email": "sarahbell@gmail.com", 
+      "gender": "0", 
+      "id": 5, 
+      "name": "Sarah Belling",
+      "location": {
+        "lat": 38.0344065,
+        "lng": -78.4979494
+      },
+      "oncall": "waiting",
+      "profileImg": "blank-profile.png"
+    }, 
+    {
+      "birthday": "Fri, 05 May 1995 00:00:00 GMT", 
+      "email": "tommy@gmail.com", 
+      "gender": "1", 
+      "id": 6, 
+      "name": "Tom Forton",
+      "location": {
+        "lat": 38.0428814,
+        "lng": -78.5043434
+      },
+      "oncall": "waiting",
+      "profileImg": "blank-profile.png"
+    }, 
+    {
+      "birthday": "Sat, 06 May 1995 00:00:00 GMT", 
+      "email": "stroud33@gmail.com", 
+      "gender": "0", 
+      "id": 7, 
+      "name": "Ally Stroud",
+      "location": {
+        "lat": 38.033379,
+        "lng": -78.4982706
+      },
+      "oncall": "waiting",
+      "profileImg": "blank-profile.png"
+    }, 
+    {
+      "birthday": "Sun, 07 May 1995 00:00:00 GMT", 
+      "email": "mymittson@gmail.com", 
+      "gender": "0", 
+      "id": 8, 
+      "name": "Kelsey Mitt",
+      "location": {
+        "lat": 38.0355122,
+        "lng": -78.5051971
+      },
+      "oncall": "waiting",
+      "profileImg": "blank-profile.png"
+    }, 
+    {
+      "birthday": "Mon, 08 May 1995 00:00:00 GMT", 
+      "email": "bampam@gmail.com", 
+      "gender": "0", 
+      "id": 9, 
+      "name": "Pam Overfield",
+      "location": {
+        "lat": 38.0355122,
+        "lng": -78.5051971
+      },
+      "oncall": "waiting",
+      "profileImg": "blank-profile.png"
+    }, 
+    {
+      "birthday": "Tue, 09 May 1995 00:00:00 GMT", 
+      "email": "jello@gmail.com", 
+      "gender": "1", 
+      "id": 10, 
+      "name": "Jason Ellerton",
+      "location": {
+        "lat": 38.028734,
+        "lng": -78.5125183
+      },
+      "oncall": "waiting",
+      "profileImg": "blank-profile.png"
+    }, 
+    {
+      "birthday": "Wed, 10 May 1995 00:00:00 GMT", 
+      "email": "markymark@gmail.com", 
+      "gender": "1", 
+      "id": 11, 
+      "name": "Mark Thomas",
+      "location": {
+        "lat": 38.0286917,
+        "lng": -78.5064029
+      },
+      "oncall": "waiting",
+      "profileImg": "blank-profile.png"
+    }, 
+    {
+      "birthday": "Thu, 11 May 1995 00:00:00 GMT", 
+      "email": "maddaily@gmail.com", 
+      "gender": "1", 
+      "id": 12, 
+      "name": "Madison Daily",
+      "location": {
+        "lat": 38.0305122,
+        "lng": -78.515709
+      },
+      "oncall": "waiting",
+      "profileImg": "blank-profile.png"
+    }, 
+    {
+      "birthday": "Fri, 12 May 1995 00:00:00 GMT", 
+      "email": "kinzz@gmail.com", 
+      "gender": "0", 
+      "id": 13, 
+      "name": "Kinsey Forth",
+      "location": {
+        "lat": 38.0378047,
+        "lng": -78.4976339
+      },
+      "oncall": "waiting",
+      "profileImg": "blank-profile.png"
+    }, 
+    {
+      "birthday": "Sat, 13 May 1995 00:00:00 GMT", 
+      "email": "gerbear@gmail.com", 
+      "gender": "1", 
+      "id": 14, 
+      "name": "Gerrit Fischer",
+      "location": {
+        "lat": 38.0357977,
+        "lng": -78.4961319
+      },
+      "oncall": "waiting",
+      "profileImg": "blank-profile.png"
+    }, 
+    {
+      "birthday": "Sun, 14 May 1995 00:00:00 GMT", 
+      "email": "mullallypop@gmail.com", 
+      "gender": "1", 
+      "id": 15, 
+      "name": "Drew Mullally",
+      "location": {
+        "lat": 38.0387326,
+        "lng": -78.5009453
+      },
+      "oncall": "waiting",
+      "profileImg": "blank-profile.png"
+    }
+  ]
+}

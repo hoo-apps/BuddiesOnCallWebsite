@@ -1,0 +1,43 @@
+{
+  "buddies": [
+    {
+      "birthday": "1995-01-01 00:00:00", 
+      "email": "another@gmail.com", 
+      "id": 1, 
+      "lastlogin": null, 
+      "lastlogout": null, 
+      "lastupdate": "2015-01-13 16:18:00", 
+      "name": "android user put test", 
+      "oncall": false, 
+      "phone": "", 
+      "userid": 4, 
+      "useruri": "/users/4"
+    }, 
+    {
+      "birthday": "1995-01-01 00:00:00", 
+      "email": "maybe@gmail.com", 
+      "id": 4, 
+      "lastlogin": null, 
+      "lastlogout": null, 
+      "lastupdate": "2015-01-14 03:51:35", 
+      "name": "Johnny Doe", 
+      "oncall": false, 
+      "phone": "", 
+      "userid": 2, 
+      "useruri": "/users/2"
+    }, 
+    {
+      "birthday": null, 
+      "email": "testing@email.com", 
+      "id": 5, 
+      "lastlogin": null, 
+      "lastlogout": null, 
+      "lastupdate": "2015-01-14 00:15:38", 
+      "name": "Thomas", 
+      "oncall": false, 
+      "phone": "", 
+      "userid": 7, 
+      "useruri": "/users/7"
+    }
+  ]
+}

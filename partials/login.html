@@ -1,0 +1,9 @@
+<div id="bg-container"></div>
+<div id="login-wrapper" class="center-h center-v">
+	<div id="login-logo">Buddies On Call</div>
+	<form name="login-form" ng-submit="login()" role="form" novalidate>
+		<input class="login-text" type="text" name="username" id="username" placeholder="Username" ng-model="username" required />
+		<input class="login-text" type="password" name="password" id="password" placeholder="Password" ng-model="password" required />
+		<button class="login-button" type="submit" ng-disabled="form.$invalid || dataLoading">Login</button>
+	</form>
+</div>

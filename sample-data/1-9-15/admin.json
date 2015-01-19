@@ -1,0 +1,16 @@
+{
+  "admins": [
+    {
+      "birthday": "1992-01-02 00:00:00", 
+      "email": "testing@gmail.com", 
+      "id": 12, 
+      "lastlogin": null, 
+      "lastlogout": null, 
+      "lastupdate": "2015-01-08 14:38:59", 
+      "name": "Test", 
+      "phone": "", 
+      "userid": 6, 
+      "useruri": "/users/6"
+    }
+  ]
+}

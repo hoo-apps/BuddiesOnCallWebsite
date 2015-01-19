@@ -1,0 +1,46 @@
+<div id="grid-container">
+	<section id="buddy-manager">
+		<div id="form-wrapper">
+			<form name="userform" ng-submit="userform.$valid && saveCurrentBuddy()" role="form" novalidate>
+				<div class="grid_2 img-container">
+				</div>
+				<input class="grid_7" type="text" name="name" id="name" placeholder="Full Name" ng-model="currentBuddy.name"/>
+				<input class="grid_7" type="text" name="email" id="email" placeholder="Computing ID" ng-model="currentBuddy.email" required/>
+				<input class="grid_4" type="text" nane="phone" id="phone" placeholder="Phone: 123-456-7890" ng-model="currentBuddy.phone"/>
+				<input class="grid_4" type="text" name="date" id="date" placeholder="Birthday" ng-model="currentBuddy.birthday"/>
+				<select class="grid_2">
+					<option value="buddy">Buddy</option>
+					<!--<option value="admin">Admin</option>-->
+				</select>
+				<button class="grid_2 blue-button" type="submit" id="save-button">Save</button>
+				<button class="grid_2 red-button" type="button" id="reset-button" ng-click="reset()">Reset</button>
+			</form>
+		</div>
+		<div ng-class="tabClass('buddy')" class="tab-wrapper">
+			<div class="grid_8" ng-click="showBuddyTab()">Buddies</div>
+		</div>
+		<div ng-class="tabClass('user')" class="tab-wrapper">
+			<div class="grid_8" ng-click="showUserTab()">Users</div>
+		</div>
+		<div ng-show="isUserTabShowing">
+			<ul id="user-email-list">
+				<input class="full-grid-width" type="text" ng-model="userEmailQuery" ng-show="userList"/>
+				<li class="grid_4" ng-repeat="user in userList | filter:{email:userEmailQuery}" ng-click="editBuddy(user)">{{ user.email }}</li>
+			</ul>
+		</div>
+		<div ng-show="isBuddyTabShowing">
+			<ul id="buddy-manager-list">
+				<li ng-repeat="bud in buddyList" ng-class-even="'even'">
+					<div class="grid_2 profile-img-container">
+					</div>
+					<span class="grid_3 center-v">{{ bud.name }}</span>
+					<span class="grid_3 center-v">{{ bud.email }}</span>
+					<span class="grid_3 center-v">{{ bud.phone }}</span>
+					<span class="grid_3 center-v">{{ bud.birthday }}</span>
+					<button ng-click="editBuddy(bud)" class="grid_1 center-v blue-button">E</button>
+					<button ng-click="deleteBuddy(bud)" class="grid_1 center-v red-button">D</button>
+				</li>
+			</ul>
+		</div>
+	</section>
+</div>

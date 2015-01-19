@@ -1,0 +1,17 @@
+<div id="buddy-list-cont">
+	<input ng-model="searchText">
+	<ul id="buddy-list">
+		<li ng-repeat="bud in buddies | filter:searchText">
+			<div class="wrapper" ng-click="gotoBuddy(bud.id)">
+				<div class="center-v img-frame">
+					<img class="profile-img center-v" ng-src="content/images/{{ bud.profileImg }}"></img>
+				</div>
+				<div class="center-v">
+					{{ bud.name }} <br>
+					{{ bud.oncall }} <img class="status-img" ng-src="content/images/status-{{ bud.oncall }}.png"></img>
+				</div>
+			</div>
+		</li>
+	</ul>
+</div>
+<div id="map-canvas"></div>
